@@ -19,7 +19,6 @@ function carga() {
             contador_m++;
             m.innerHTML = contador_m < 10 ? "0" + contador_m : contador_m;
             contador_s = 0;
-
         }
 
         if (contador_m==60) {

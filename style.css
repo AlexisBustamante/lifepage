@@ -11,6 +11,22 @@ body {
     
 }
 
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.in-flex{
+    flex-wrap: 1;
+    padding: 5px;
+    background-color:#fff;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    
+}
 
 .main {
     background-color: #dadaec;
@@ -22,10 +38,10 @@ body {
 
 .reloj {
     border-radius: 150px;
+    display:flex;
     height: 400px;
     background-color: inherit;
-    width: 950px;
-    display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -35,11 +51,11 @@ body {
         monospace;
 }
 
-.reloj #cuadro {
+.home #cuadro {
     height: 150px;
     width: 150px;
     border-radius: 10px;
-    background-color: white;
+    background-color:white;
     padding: 10px;
     margin: 10px;
     /* IMPORTANTE */
@@ -49,12 +65,14 @@ body {
 
 
 .container{
-        display: flex;
+        display: grid;
         justify-content: center;
         align-items: center;
+        gap:1rem;
+        grid-auto-rows:22rem;
 }
 
-.reloj span {
+.home span {
     font-size: 50px;
 
 }
@@ -91,8 +109,14 @@ body {
     letter-spacing: 3px;
 }
 
-.container .links{
-    width: 75px;
-    height: 75px;
+.containerlinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.containerlinks .links{
+    width: 150px;
+    height: 150px;
     padding:10px;
 }
