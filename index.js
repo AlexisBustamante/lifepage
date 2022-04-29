@@ -1,11 +1,11 @@
 
 function carga() { 
 
-    contador_s = 59;
+    contador_s = 0;
     contador_m = 0;
     contador_h = 0;
     contador_d = 0;
-    
+
     s = document.getElementById('segundos');
     m = document.getElementById('minutos');
     h = document.getElementById('horas');
