@@ -1,0 +1,98 @@
+
+:root {
+    --text-color: brown;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#dadaec;
+    color: #363639;
+    
+}
+
+
+.main {
+    background-color: #dadaec;
+    height: 694px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.reloj {
+    border-radius: 150px;
+    height: 400px;
+    background-color: inherit;
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: bold;
+    font-family: 'Courier New',
+        Courier,
+        monospace;
+}
+
+.reloj #cuadro {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    /* IMPORTANTE */
+    display: inline-block;
+    text-align: center;
+}
+
+
+.container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.reloj span {
+    font-size: 50px;
+
+}
+
+.juntos {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.juntos .text-span{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.posicion {
+    margin-top: 55px;
+    background-color: white;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+}
+.subtitulo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.container .links{
+    width: 75px;
+    height: 75px;
+    padding:10px;
+}
