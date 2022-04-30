@@ -34,6 +34,7 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
 
 .reloj {
@@ -75,6 +76,11 @@ body {
 .home span {
     font-size: 50px;
 
+}
+
+.subtitulo p{
+    margin-left:10px ;
+    margin-right:10px;
 }
 
 .juntos {

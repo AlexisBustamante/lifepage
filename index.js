@@ -12,7 +12,6 @@ function carga() {
         var timeMilisDif = vendDate.getTime() - iniDate.getTime();
 
         var se = Math.round(timeMilisDif / 1000);
-        //console.log(secondsFormat(seconds));
         var day = Math.floor(se / (24 * 3600)); // Math.floor () redondea hacia abajo 
         var hour = Math.floor((se - day * 24 * 3600) / 3600);
         var minute = Math.floor((se - day * 24 * 3600 - hour * 3600) / 60);
