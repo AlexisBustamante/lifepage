@@ -261,10 +261,9 @@ footer .wave#wave4 {
 .titulo {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 100px;
+    margin-top: 25px;
     text-transform: uppercase;
     letter-spacing: 3px;
-
 }
 
 .subtitulo {
