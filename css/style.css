@@ -1,0 +1,128 @@
+
+:root {
+    --text-color: brown;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#dadaec;
+    color: #363639;
+    
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.in-flex{
+    flex-wrap: 1;
+    padding: 5px;
+    background-color:#fff;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.main {
+    background-color: #dadaec;
+    height: 694px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.reloj {
+    border-radius: 150px;
+    display:flex;
+    height: 400px;
+    background-color: inherit;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: bold;
+    font-family: 'Courier New',
+        Courier,
+        monospace;
+}
+
+.home #cuadro {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    background-color:white;
+    padding: 10px;
+    margin: 10px;
+    /* IMPORTANTE */
+    display: inline-block;
+    text-align: center;
+}
+
+
+.container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap:1rem;
+        grid-auto-rows:22rem;
+}
+
+.home span {
+    font-size: 50px;
+
+}
+
+.subtitulo p{
+    margin-left:10px ;
+    margin-right:10px;
+}
+
+.juntos {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.juntos .text-span{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.posicion {
+    margin-top: 55px;
+    background-color: white;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+}
+.subtitulo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.containerlinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.containerlinks .links{
+    width: 150px;
+    height: 150px;
+    padding:10px;
+}
